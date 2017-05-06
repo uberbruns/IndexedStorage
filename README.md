@@ -4,7 +4,7 @@
 [![License][mit-badge]][mit-url]
 [![Build Status][travis-badge]][travis-url]
 
-A wrapper around Swifts Dictionary type that creates and maintains multiple indices for stored _Structs_. You should **not use it with classes**, because properties may change without the class noticing.
+A wrapper around Swifts Dictionary type that creates and maintains multiple indices for stored _Structs_. You should **not use it with mutable classes**, because IndexedStorage will not observe properties of class instances to keep the indices up-to-date.
 
 
 ## Install
