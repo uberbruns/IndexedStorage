@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "IndexedStorage"
   s.version      = "0.0.1"
   s.summary      = ""
-  s.description  = "A wrapper arround Swift.Dictionary that creates and maintains multiple indexes for stored objects."
+  s.description  = "A wrapper around Swift.Dictionary that creates and maintains multiple indices for stored _Structs_."
   s.homepage     = "https://github.com/uberbruns/IndexedStorage"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Karsten Bruns" => "karsten@bruns.me" }

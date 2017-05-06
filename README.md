@@ -1,11 +1,16 @@
 # IndexedStorage
 
-A wrapper arround Swift.Dictionary that creates and maintains multiple indices for stored _Structs_. Yuo should **not use it with classes**, because properties may change without the class noticing, so it cannot reindex.
+[![Swift][swift-badge]][swift-url]
+[![License][mit-badge]][mit-url]
+<!-- [![Build Status][travis-badge]][travis-url] -->
+
+A wrapper around Swifts Dictionary type that creates and maintains multiple indices for stored _Structs_. You should **not use it with classes**, because properties may change without the class noticing.
 
 
 ## Install
 
 This library should be installable via SwiftPM, Carthage and CocoaPods.
+
 
 ## Example
 
@@ -148,3 +153,11 @@ shipData.remove(key: "USS-1701")
 ## License
 
 This project is released under the MIT license. See [LICENSE](LICENSE) for details.
+
+
+[swift-badge]: https://img.shields.io/badge/Swift-3.1-orange.svg?style=flat
+[swift-url]: https://swift.org
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
+[mit-url]: https://tldrlegal.com/license/mit-license
+<!-- [travis-badge]: https://travis-ci.org/uberbruns/CasingTools.svg?branch=master
+[travis-url]: https://travis-ci.org/uberbruns/CasingTools -->
