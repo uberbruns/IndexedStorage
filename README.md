@@ -2,7 +2,7 @@
 
 [![Swift][swift-badge]][swift-url]
 [![License][mit-badge]][mit-url]
-<!-- [![Build Status][travis-badge]][travis-url] -->
+[![Build Status][travis-badge]][travis-url]
 
 A wrapper around Swifts Dictionary type that creates and maintains multiple indices for stored _Structs_. You should **not use it with classes**, because properties may change without the class noticing.
 
@@ -159,5 +159,5 @@ This project is released under the MIT license. See [LICENSE](LICENSE) for detai
 [swift-url]: https://swift.org
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [mit-url]: https://tldrlegal.com/license/mit-license
-<!-- [travis-badge]: https://travis-ci.org/uberbruns/CasingTools.svg?branch=master
-[travis-url]: https://travis-ci.org/uberbruns/CasingTools -->
+[travis-badge]: https://travis-ci.org/uberbruns/IndexedStorage.svg?branch=master
+[travis-url]: https://travis-ci.org/uberbruns/IndexedStorage
